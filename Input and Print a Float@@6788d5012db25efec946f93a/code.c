@@ -3,8 +3,10 @@
 int main() 
 {
     float num;
-    printf("Enter the float-point number:");
+    //printf("Enter the float-point number:");
     scanf("%f", &num);
     printf("You entered:%f\n", num);
+    //scanf("%f", &num1);
+    //printf("You entered:%f", num1);
     return 0;
 }
