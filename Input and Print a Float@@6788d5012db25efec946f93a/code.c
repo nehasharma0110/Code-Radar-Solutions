@@ -2,11 +2,11 @@
 
 int main() 
 {
-    float num;
+    float num,n1;
     //printf("Enter the float-point number:");
     scanf("%f", &num);
     printf("You entered:%.2f\n", num);
-    //scanf("%f", &num1);
-    //printf("You entered:%f", num1);
+    scanf("%f", &n1);
+    printf("You entered:%.2f", n1);
     return 0;
 }
